@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_comment_concur"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="politix.com.politix3.AddCommentConcur"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:text="Bill Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:textSize="45dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:id="@+id/editText"
+        android:background="@drawable/edittext_bottom_border"
+        android:textAlignment="center"
+        android:hint="Add a comment"
+        android:padding="10dp"
+
+
+        />
+
+    <TextView
+        android:text="Concur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:textSize="30dp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:id="@+id/Submit" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:id="@+id/cancel" />
+
+
+
+</RelativeLayout>

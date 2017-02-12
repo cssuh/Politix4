@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:title="Starred Bills" />
+
+
+    </group>
+
+<item android:title="Categories">
+    <menu>
+        <item
+            android:id="@+id/nav_third_layout"
+            android:title="Agriculture" />
+        <item
+            android:id="@+id/nav_fourth_layout"
+            android:title="Commerce" />
+        <item
+            android:id="@+id/nav_fifth_layout"
+            android:title="Defense" />
+        <item
+            android:id="@+id/nav_sixth_layout"
+            android:title="Education" />
+        <item
+            android:id="@+id/nav_seventh_layout"
+            android:title="Energy" />
+        <item
+            android:id="@+id/nav_eighth_layout"
+            android:title="Health and Human Services" />
+        <item
+            android:id="@+id/nav_ninth_layout"
+            android:title="Housing and Urban Development" />
+        <item
+            android:id="@+id/nav_tenth_layout"
+            android:title="Homeland Security" />
+        <item
+            android:id="@+id/nav_eleventh_layout"
+            android:title="Labor" />
+        <item
+            android:id="@+id/nav_twelvth_layout"
+            android:title="Transportation" />
+        <item
+            android:id="@+id/nav_thirteenth_layout"
+            android:title="Veterans Affairs" />
+
+
+    </menu>
+</item>
+
+</menu>
